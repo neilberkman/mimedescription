@@ -12,6 +12,8 @@ on:
 jobs:
   update-mime-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # 1. Check out the repository code
