@@ -1,1 +1,2 @@
-.mime_cache/
+.mime_cache/*
+!.mime_cache/data_hash.txt

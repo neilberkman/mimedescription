@@ -39,7 +39,7 @@ jobs:
         with:
           commit_message: "chore(data): Update MIME descriptions from freedesktop.org"
           branch: main # Or your default branch
-          file_pattern: data.go # Only commit changes to the data.go file
+          file_pattern: "data.go .mime_cache/data_hash.txt" # Commit data file and hash
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions@github.com"
           commit_author: "GitHub Actions Bot <github-actions@github.com>"
